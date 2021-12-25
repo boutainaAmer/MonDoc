@@ -1,0 +1,175 @@
+body {
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+  min-height: 100vh;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+body {
+  background-color: #f7f6f6
+}
+
+.card {
+  width: 350px;
+  border: none;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  border-radius: 12px
+}
+
+.circle-image img {
+  border: 6px solid #fff;
+  border-radius: 100%;
+  padding: 0px;
+  top: -28px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  z-index: 1;
+  background: #e7d184;
+  cursor: pointer
+}
+
+.dot {
+  height: 18px;
+  width: 18px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid #fff;
+  top: -48px;
+  left: 186px;
+  z-index: 1000
+}
+
+.name {
+  margin-top: -21px;
+  font-size: 18px
+}
+
+.fw-500 {
+  font-weight: 500 !important
+}
+
+.start {
+  color: green
+}
+
+.stop {
+  color: red
+}
+
+.rate {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px
+}
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center
+}
+
+.rating>input {
+  display: none
+}
+
+.rating>label {
+  position: relative;
+  width: 1em;
+  font-size: 30px;
+  font-weight: 300;
+  color: #FFD600;
+  cursor: pointer
+}
+
+.rating>label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+  opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+  opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+  opacity: 0.4
+}
+
+.buttons {
+  top: 36px;
+  position: relative
+}
+
+.rating-submit {
+  border-radius: 15px;
+  color: #fff;
+  height: 49px
+}
+
+.rating-submit:hover {
+  color: #fff
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.xaa {
+    overflow: hidden;
+    margin-top: 250px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+

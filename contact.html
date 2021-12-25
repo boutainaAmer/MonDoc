@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>contact</title>
+</head>
+<body>
+
+  <header id="top"> 
+    <div class="scrollTOP">
+    </div>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="index.html">
+    <img src="logo.PNG" class="imgmobiblanc" alt="logo-mobiblanc">
+    </a> -->
+    <a href="index.html"><img src="https://see.fontimg.com/api/renderfont4/vmgK9/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TW9uRG9j/billion-dreams.png" alt="Cursive fonts"></a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse navbarbar " id="navbarColor02">
+        <ul class="navbar-nav me-auto text-center ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">SERVICES <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="book.html">RENDEZ-VOUS <span class="sr-only"></span></a>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link" href="doctors.html">DOCTORS <span class="sr-only"></span></a>
+          </li>
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">CONTACT <span class="sr-only"></span></a>
+          </li>
+  
+        </ul>
+        <span class="login">
+          <a class="nav-link " href="login.html">LOGIN <span class="sr-only"></span></a>
+        </span>
+  
+      </div>
+    </div>
+  </nav>
+  </header>
+
+
+  <div class="contain">
+
+    <div class="wrapper">
+  
+      <div class="form">
+        <h4>Contact Us</h4>
+        <h2 class="form-headline">Envoyez-nous un message</h2>
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Votre Nom">
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Votre Prenom">
+            <small class="name-error"></small>
+          </p>
+          <p class="full-width">
+            <input id="company-name" class="form-input" type="text" placeholder="Votre Numero" required>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Votre message" required></textarea>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+          </p>
+          <p class="full-width">
+            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+          </p>
+        </form>
+      </div>
+  
+      <div class="contacts contact-wrapper">
+  
+        <ul>
+          <li>On est valable 24h 6/7 pour vos question,reclamation <span class="highlight-text-grey">et pour votre santé</span> Pour nos patient.
+            Comment on peut vous aidez?</li>
+          <span class="hightlight-contact-info">
+            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT@MONDOC.COM </li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+212 612215103</span></li>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+
+  <script src="book.js"></script>
+</body>
+</html>

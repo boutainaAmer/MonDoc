@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.lastlogos{
+  
+}
+
+.scrollTop{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;  
+  background: #fff url(up.jpg);
+  border-radius: 50%;
+  background-size: 40px;
+  background-position:center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 100000;
+}
+
+.confiance{
+  width: 100%;
+  margin: auto;
+
+}
+
+
+
+.footer a{
+  text-decoration: none;
+  color: grey;
+  text-align: justify;
+  text-align: center;
+ 
+  
+}
+.footer{
+  padding-top: 40px;
+  background-color:#f3f7f8 ;
+  text-align: center;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  
+
+}
+.brand{
+  text-align: center;
+}
+/* scroll try */
+.scroll-down header {
+  transform: translate3d(0,-100%,0)
+}
+.scroll-up header {
+  filter: drop-shadow(0 -10px 20px rgb(170,170,170))
+}
+
+
+
+/* @media screen and (max-width: 580px) {
+  
+    .imgtext {
+      position: relative;
+      text-align: center;
+      color: white;
+      
+    }
+    .first-txt {
+      position: absolute;
+      top: 17px;
+      left: 300px;
+      width: 330px;
+    }
+     */
+
+     .jobs{
+       text-align: center;
+     }
+    .second-txt {
+      margin: 3%;
+      position: relative;
+      bottom: 10px;
+    }
+    .wrap{
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+  
+  .icnbox{
+    border: 1px;
+    box-sizing: border-box;
+
+
+  }
+  .text-actualite{
+    margin-top: 20px;
+    
+    
+  }
+
+  .logobottom{
+    width: 20%;
+   
+  }
+
+ 
+
+
+
+
+.logos {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  transition:  0.5s;
+}
+.point {
+  width: 15px;
+  height: 15px;
+  background-color: #39a2db;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 0 6px;
+}
+.logos{
+  text-align: center;
+  
+  
+  
+}
+.pg{
+  padding-top: 10px;
+  text-align: left;
+}
+#hero{
+  margin: 15px;
+
+  
+}
+.offres button:hover::after{
+  text-decoration: white;
+
+
+}
+.petit{
+  width: 5%;
+}
+.anniversary{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.bouttons{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.offre{
+  text-decoration: black;
+}
+.anchor{
+  text-decoration: none;
+}
+
+.anchor:hover{
+  color: #FFF !important;
+}
+
+.celebreations{
+  text-align: center;
+}
+.ptt {
+  width: 7px;
+  height: 7px;
+  background-color: #39a2db;
+  border-radius: 10%;
+  display: inline-block;
+  margin: 0 0 0 6px;
+}
+.hrblue {
+  border-top: 3px solid #39a2db;
+  width: 20%;
+  border-radius: 15%;
+  
+}
+.hrblue1 {
+  border-top: 3px solid #39a2db;
+  width: 20%;
+  border-radius: 15%;
+  margin-left: 40%;
+  margin-right: 40%;
+  
+  
+}
+
+.btt {
+  color: black;
+}
+.numbers {
+  padding: 10%;
+  text-align: center;
+}
+.decouvrer {
+  margin-left: 40%;
+  margin-right: 40%;
+  
+}
+
+.icn{
+  margin: 20px;
+  color: 	#404040;
+}
+.imgtext1{
+  background: url('aaa.jpg');
+  background-size: cover;
+  height: 450px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgtext2 {
+  background: url('bbb.jpg');
+  background-size: cover;
+  height: 450px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mb{
+  padding-top: 130px;
+}
+
+.login{
+  display: flex;
+  float:right ;
+}
+
+.mytxt{
+  text-align: center;
+}
+
+.service {
+  padding-top: 40px;
+}
+
+.service .service-item {
+  background: #F4F9F9;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.service .icon {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.service i {
+  color: #e12454;
+}
+
+.service h4 {
+  padding-left: 20px;
+}
+
+.service .content {
+  clear: both;
+}
+
+.service-block {
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0 38px rgba(21, 40, 82, 0.07);
+}
+
+.service-block img {
+  width: 100%;
+  margin-top: -60px;
+  border: 5px solid #fff;
+}
+.icongrid{
+  font-size: 50px;
+}
+
+
+/* .first-txt {
+  position: absolute;
+  top: 17px;
+  left: 200px;
+  width: 330px;
+}
+
+.second-txt {
+  margin: 3%;
+  position: relative;
+  bottom: 220px;
+
+
+
+} */
+
+
+

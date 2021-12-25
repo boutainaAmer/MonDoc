@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Nouveau dossier",
+			"path": "."
+		},
+		{
+			"name": "urbanui-login-template-free-1-7433a5e503a6",
+			"path": "..\\..\\urbanui-login-template-free-1-7433a5e503a6"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": "Nouveau dossier"
+	}
+}
